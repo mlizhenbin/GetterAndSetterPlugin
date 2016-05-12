@@ -1,8 +1,8 @@
 <idea-plugin version="2">
-    <id>com.oneplus.lizhenbin</id>
+    <id>org.lzbruby.lizhenbin</id>
     <name>auto get and set</name>
     <version>1.0</version>
-    <vendor email="lizhenbin@oneplus.cn" url="http://www.oneplus.cn">一加科技</vendor>
+    <vendor email="lizhenbin08@sina.com" url="lizhenbin08@sina.com">lzbruby.org</vendor>
 
     <description><![CDATA[
       Enter short description for your plugin here.<br>
@@ -38,11 +38,11 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="autoSetAndGet" class="com.oneplus.lzb.AutoGetAndSetMethod" text="autoSetAndGet" description="auto setXX() to getXX()">
+        <action id="autoSetAndGet" class="org.lzbruby.lzb.AutoGetAndSetMethod" text="autoSetAndGet" description="auto setXX() to getXX()">
             <add-to-group group-id="GenerateGroup" anchor="last"/>
         </action>
 
-        <action id="autoSet" class="com.oneplus.lzb.AutoSetMethod" text="autoSet" description="auto setXX()">
+        <action id="autoSet" class="org.lzbruby.lzb.AutoSetMethod" text="autoSet" description="auto setXX()">
             <add-to-group group-id="GenerateGroup" anchor="last"/>
         </action>
 

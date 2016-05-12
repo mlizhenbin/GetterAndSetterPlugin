@@ -1,4 +1,4 @@
-package com.oneplus.lzb;
+package org.lzbruby.lzb;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
@@ -14,7 +14,7 @@ import com.intellij.ui.CollectionListModel;
 import java.util.List;
 
 /**
- * 一加科技
+ * lzbrub.org
  *
  * @description:
  * @author: Zhenbin.Li

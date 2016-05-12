@@ -1,4 +1,4 @@
-package com.oneplus.lzb;
+package org.lzbruby.lzb;
 
 import com.intellij.psi.*;
 import com.intellij.psi.search.GlobalSearchScope;
